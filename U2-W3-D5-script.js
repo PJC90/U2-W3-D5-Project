@@ -34,9 +34,7 @@ const creaProdotti = function (arrayEventi) {
           <img src="${event.imageUrl}" class="card-img-top" >
           <div class="card-body">
               <h5 class="card-title">${event.name}</h5>
-              <p class="card-text">${event.description}</p>
-              <p class="card-text">${event.price}</p>
-              
+              <p class="card-text">${event.description}</p>            
               <p class="card-text">Prezzo: ${event.price}€</p>
               <a href="./U2-W3-D5-modifica.html?eventId=${event._id}" class="btn btn-primary">DETTAGLI</a>
           </div>
